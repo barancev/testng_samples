@@ -3,3 +3,11 @@ pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.next
 release.properties
+
+test-output/
+
+*.log
+
+.idea/vcs.xml
+.idea/misc.xml
+.idea/workspace.xml
