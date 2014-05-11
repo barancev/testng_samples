@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="testng_junit" />
+        <module name="testng_samples" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="testng_junit" target="1.6" />
+      <module name="testng_samples" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

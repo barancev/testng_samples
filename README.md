@@ -1,4 +1,4 @@
-testng_junit_training
-=====================
+TestNG Samples
+==============
 
-Samples fot TestNG and JUnit training
+Samples fot TestNG training
