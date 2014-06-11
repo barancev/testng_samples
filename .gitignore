@@ -11,3 +11,7 @@ test-output/
 .idea/vcs.xml
 .idea/misc.xml
 .idea/workspace.xml
+
+.project
+.classpath
+.settings
