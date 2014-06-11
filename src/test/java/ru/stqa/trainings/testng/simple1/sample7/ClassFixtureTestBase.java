@@ -2,7 +2,6 @@ package ru.stqa.trainings.testng.simple1.sample7;
 
 import org.testng.annotations.*;
 
-@Test
 public class ClassFixtureTestBase {
 
   @BeforeClass
