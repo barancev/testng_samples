@@ -11,7 +11,7 @@ public class TaggedMethodsTest {
 
   @Test(groups = {"positive", "broken"})
   public void test2() {
-    System.out.println("positeve broken test");
+    System.out.println("positive broken test");
   }
 
   @Test(groups = "negative")
