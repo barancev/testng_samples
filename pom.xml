@@ -43,9 +43,9 @@
 <!--          <includes>
             <include>**/*TestSuite.java</include>
           </includes>-->
-<!--          <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
-          </suiteXmlFiles>-->
+          <suiteXmlFiles>
+            <suiteXmlFile>src/test/resources/testng-methods.xml</suiteXmlFile>
+          </suiteXmlFiles>
         </configuration>
       </plugin>
       <plugin>
