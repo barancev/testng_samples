@@ -8,8 +8,6 @@ import static org.hamcrest.CoreMatchers.*;
 
 public class SoftHamcrestTest {
   
-  private SoftHamcrestAssert h = new SoftHamcrestAssert();
-
   @Test
   public void testHardAssert() {
     assertThat("Three", 2 * 2, is(3));
@@ -18,6 +16,7 @@ public class SoftHamcrestTest {
 
   @Test
   public void testSoftAssert() {
+    SoftHamcrestAssert h = new SoftHamcrestAssert();
     h.assertThat("Three", 2 * 2, is(3));
     h.assertThat("Five", 2 * 2, is(5));
     h.assertAll();

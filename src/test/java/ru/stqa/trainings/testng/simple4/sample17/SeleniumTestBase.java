@@ -8,12 +8,10 @@ import org.testng.annotations.BeforeSuite;
 public class SeleniumTestBase {
   
   protected WebDriver driver;
-  protected SeleniumAssertion check;
 
   @BeforeSuite(alwaysRun = true)
   public void startBrowser() {
     driver = new FirefoxDriver();
-    check = new SeleniumAssertion(driver);
   }
   
   @AfterSuite(alwaysRun = true)

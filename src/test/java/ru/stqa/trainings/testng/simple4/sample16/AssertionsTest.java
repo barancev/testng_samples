@@ -31,7 +31,7 @@ public class AssertionsTest {
 
   @Test
   public void testSoftAssert() {
-	SoftAssert s = new SoftAssert();
+	  SoftAssert s = new SoftAssert();
     s.assertEquals(2 * 2, 3, "Three");
     s.assertEquals(2 * 2, 5, "Five");
     s.assertAll();
