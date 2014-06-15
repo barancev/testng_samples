@@ -1,7 +1,6 @@
 package ru.stqa.trainings.testng.simple4.sample18;
 
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.CoreMatchers.*;

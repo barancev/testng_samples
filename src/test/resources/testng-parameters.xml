@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+  <test name="TestAdmin">
+    <parameter name="username" value="admin"></parameter>
+    <parameter name="password" value="admin"></parameter>
+    <packages>
+      <package name="ru.stqa.trainings.testng.simple5.sample19" />
+   </packages>
+  </test>
+  <test name="TestGuest">
+    <parameter name="username" value="guest"></parameter>
+    <parameter name="password" value="guest"></parameter>
+    <packages>
+      <package name="ru.stqa.trainings.testng.simple5.sample19" />
+   </packages>
+ </test>
+</suite>

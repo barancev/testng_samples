@@ -1,4 +1,4 @@
-package ru.stqa.trainings.testng.simple4.sample17;
+package ru.stqa.trainings.testng.simple5.sample19;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

@@ -25,7 +25,7 @@ public class AssertionsTest {
 
   @Test
   public void testAssertion() {
-	Assertion s = new Assertion();
+	  Assertion s = new Assertion();
     s.assertEquals(2 * 2, 5);
   }
 

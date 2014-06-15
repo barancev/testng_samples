@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+  <test name="TestFirefox">
+    <parameter name="browser" value="firefox"></parameter>
+    <packages>
+      <package name="ru.stqa.trainings.testng.simple5.sample20" />
+   </packages>
+  </test>
+  <test name="TestChrome">
+    <parameter name="browser" value="chrome"></parameter>
+    <packages>
+      <package name="ru.stqa.trainings.testng.simple5.sample20" />
+   </packages>
+ </test>
+</suite>
