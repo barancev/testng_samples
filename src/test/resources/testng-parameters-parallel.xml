@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+  <test name="TestAdmin" parallel="methods" thread-count="10">
+    <packages>
+      <package name="ru.stqa.trainings.testng.simple5.sample21" />
+   </packages>
+  </test>
+</suite>

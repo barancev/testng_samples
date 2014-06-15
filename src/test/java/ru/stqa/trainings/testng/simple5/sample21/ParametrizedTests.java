@@ -11,14 +11,21 @@ import org.testng.annotations.Test;
 public class ParametrizedTests {
 
   @Test(dataProvider = "users")
-  public void test1(String user, String password) {
+  public void test1(String user, String password) throws InterruptedException {
     System.out.println(user + ":" + password);
+    Thread.sleep(1000);
   }
-  
+
+  @Test(dataProvider = "users")
+  public void test2(String user, String password) throws InterruptedException {
+    System.out.println(user + ":" + password);
+    Thread.sleep(1000);
+  }
+
   @DataProvider
   public Iterator<Object[]> users() {
     List<Object[]> data = new ArrayList<Object[]>();
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 10; i++) {
       data.add(new Object[]{
          generateRandomName(), generateRandomPassword() 
       });
