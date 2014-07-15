@@ -6,16 +6,38 @@
   <version>1.0.0</version>
   <packaging>jar</packaging>
 
+  <repositories>
+    <repository>
+      <id>xuggle repo</id>
+      <url>http://xuggle.googlecode.com/svn/trunk/repo/share/java/</url>
+    </repository>
+  </repositories>
+  
   <dependencies>
     <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
-      <version>6.8.8</version>
+      <version>6.8.9-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>ru.stqa.selenium</groupId>
       <artifactId>webdriver-factory</artifactId>
       <version>1.1.41</version>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.opencsv</groupId>
+      <artifactId>opencsv</artifactId>
+      <version>2.3</version>
+    </dependency>
+    <dependency>
+      <groupId>xuggle</groupId>
+      <artifactId>xuggle-xuggler</artifactId>
+      <version>5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>biz.futureware.mantis</groupId>
+      <artifactId>mantis-axis-soap-client</artifactId>
+      <version>1.2.15</version>
     </dependency>
   </dependencies>
   <build>
@@ -44,7 +66,7 @@
             <include>**/*TestSuite.java</include>
           </includes>-->
           <suiteXmlFiles>
-            <suiteXmlFile>src/test/resources/testng-methods.xml</suiteXmlFile>
+            <suiteXmlFile>src/test/resources/testng-hookable.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

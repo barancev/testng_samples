@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+  <test name="Test1"   >
+    <packages>
+      <package name="ru.stqa.trainings.testng.tricky4.sample35" />
+   </packages>
+ </test>
+</suite>
